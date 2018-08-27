@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Building",
+	"description": "This is a repository of building APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/building.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://building.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Building",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/building/master/_listings/atlassian/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Building",
+	"include": [
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/building/master/_listings/atlassian/apis.yaml"
+		}
+	]
+}
